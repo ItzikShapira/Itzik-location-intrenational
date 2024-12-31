@@ -3,18 +3,18 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>איציק לוקישין אינטרנשיונל ✨</title>
+    <title>Itzik Location International ✨</title>
     <style>
-      /* Previous styles remain the same */
+      /* Previous styles remain unchanged */
       body {
         font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
         margin: 0;
         padding: 0;
         background: linear-gradient(135deg, #f6f9fc 0%, #e9f0f6 100%);
-        color: #2c3e50;
+        color: #2c4850;
       }
       header {
-        background: linear-gradient(45deg, #1a237e 0%, #0d47a1 100%);
+        background: linear-gradient(45deg, #1a237e 0%, #6296e5 100%);
         color: #fff;
         padding: 40px 20px;
         text-align: center;
@@ -116,32 +116,186 @@
         padding: 30px;
         margin-top: 50px;
       }
+      .founder-section {
+        text-align: center;
+        padding: 20px;
+        margin: 20px 0;
+      }
+      .founder-image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        margin: 20px auto;
+        object-fit: cover;
+      }
+      .logo-container {
+        width: 500px;
+        height: 200px;
+        margin: 0 auto;
+        padding: 20px 0;
+      }
+      .logo {
+        width: 100%;
+        height: 100%;
+      }
+      .contact-item a {
+        text-decoration: none;
+        color: #2c4850;
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        padding: 15px 25px;
+        border: 1px solid #e0e0e0;
+        border-radius: 8px;
+        transition: all 0.3s ease;
+        background: linear-gradient(to right, #ffffff 0%, #f8f9fa 100%);
+      }
+
+      .contact-item a:hover {
+        transform: translateY(-2px);
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        border-color: gold;
+      }
+
+      .contact-item strong {
+        font-size: 1.1em;
+        color: #1a237e;
+      }
+
+      .contact-info {
+        display: flex;
+        justify-content: center;
+        gap: 20px;
+        padding: 20px;
+      }
+
+      .contact-item .emoji-icon {
+        font-size: 1.5em;
+        color: gold;
+      }
     </style>
   </head>
   <body>
     <header>
       <div class="header-content">
-        <h1>✨ איציק לוקישין אינטרנשיונל ✨</h1>
-        <p>🌟 ברוכים הבאים לעולם היוקרה והבינלאומיות של איציק לוקישין 🌟</p>
+        <!-- Adding logo here -->
+        <div class="logo-container">
+          <svg
+            class="logo"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 500 200"
+          >
+            <!-- Crown Icon -->
+            <path d="M250 30 L270 50 L250 70 L230 50 Z" fill="gold" />
+            <path d="M235 45 L245 35 L255 45 L245 55 Z" fill="#1a237e" />
+
+            <!-- Decorative Frame -->
+            <rect
+              x="50"
+              y="40"
+              width="400"
+              height="120"
+              rx="10"
+              fill="none"
+              stroke="gold"
+              stroke-width="2"
+            />
+            <rect
+              x="55"
+              y="45"
+              width="390"
+              height="110"
+              rx="8"
+              fill="none"
+              stroke="#1a237e"
+              stroke-width="1"
+            />
+
+            <!-- Diamond Accents -->
+            <path d="M80 100 L90 90 L100 100 L90 110 Z" fill="gold" />
+            <path d="M400 100 L410 90 L420 100 L410 110 Z" fill="gold" />
+
+            <!-- Company Name with Elegant Typography -->
+            <text
+              x="250"
+              y="95"
+              font-family="Palatino, serif"
+              font-size="32"
+              fill="#1a237e"
+              text-anchor="middle"
+              font-weight="bold"
+            >
+              ITZIK LOCATION
+            </text>
+            <text
+              x="250"
+              y="125"
+              font-family="Palatino, serif"
+              font-size="20"
+              fill="gold"
+              text-anchor="middle"
+            >
+              INTERNATIONAL
+            </text>
+
+            <!-- Decorative Lines -->
+            <path d="M120 100 L220 100" stroke="gold" stroke-width="1" />
+            <path d="M280 100 L380 100" stroke="gold" stroke-width="1" />
+
+            <!-- Additional Diamond Details -->
+            <path d="M60 60 L65 55 L70 60 L65 65 Z" fill="gold" />
+            <path d="M430 60 L435 55 L440 60 L435 65 Z" fill="gold" />
+            <path d="M60 140 L65 135 L70 140 L65 145 Z" fill="gold" />
+            <path d="M430 140 L435 135 L440 140 L435 145 Z" fill="gold" />
+          </svg>
+        </div>
+        <p>🌟 איכות ויוקרה בסטנדרט בינלאומי 🌟</p>
       </div>
     </header>
     <nav>
       <a href="#about">🏢 אודות</a>
       <a href="#services">💎 שירותים</a>
+      <a href="#founder">👔 על המייסד</a>
       <a href="#contact">📞 צור קשר</a>
     </nav>
     <div class="container">
       <section id="about" class="card">
         <h2>🌍 אודותינו</h2>
         <img
-          src="/api/placeholder/1200/300"
+          src="./Pictures/רקע.webp"
           alt="תמונת נוף יוקרתית"
           class="hero-image"
         />
         <p>
-          איציק לוקישין אינטרנשיונל מובילים את תחום היוקרה בעולם. אנו מתמחים
-          במתן שירותים מותאמים אישית ללקוחות המוערכים שלנו ברחבי העולם. 🌟
+          איציק לוקישין, יזם מבריק וחשיבתי, הקים את חברת Itzik Location
+          International בשנת 2018 מתוך רצון לשדרג את תחום המיתוג הגלובלי. עם
+          רעיונות יצירתיים ומקוריים, איציק מוביל את החברה בתהליכים חדשניים בתחום
+          המיתוג והעיצוב, תוך שילוב של ידע עמוק ומקצועיות חסרת פשרות. החברה
+          מתמקדת בהענקת שירותים יוקרתיים וייחודיים עבור לקוחות שמחפשים מיתוג
+          ברמה בינלאומית, בשאיפה להעניק לכל לקוח את המענה המושלם והממותג ביותר.
+          🌟
         </p>
+      </section>
+
+      <section id="founder" class="card">
+        <h2>👔 על המייסד</h2>
+        <div class="founder-section">
+          <img
+            src="./Pictures/Me2.png"
+            alt="איציק לוקישין"
+            class="founder-image"
+          />
+          <h3>איציק לוקישין</h3>
+          <p>
+            איציק לוקישין, נולד ב-2002, הוא ממציא ויזם עם יכולות יצירתיות יוצאות
+            דופן. כשרוני על, איציק לא מפסיק לחשוב מחוץ לקופסה ויודע להביא
+            רעיונות חדשים ופורצי דרך לעולם המיתוג. מאז הקמת החברה בשנת 2018,
+            איציק עוסק בהפיכת רעיונות למוצרי מיתוג יוקרתיים שמובילים את השוק.
+            איציק מאמין בכוחו של המיתוג לשנות כל תחום ובכל רגע. חזונו הוא לשלב
+            בין חדשנות לטכנולוגיה מודרנית, תוך שמירה על הערכים של איכות ויוקרה.
+            🎯
+          </p>
+        </div>
       </section>
 
       <section id="services" class="card">
@@ -149,15 +303,15 @@
         <div class="service-grid">
           <a href="./AccessoriesBrandingDepartment.html" class="service-item">
             <div class="emoji-icon">👔</div>
-            <h3>שירותי ייעוץ מותאמים אישית</h3>
+            <h3>אקססוריז יוקרה</h3>
           </a>
           <a href="./BrandedClothingDepartment.html" class="service-item">
             <div class="emoji-icon">💎</div>
-            <h3>מוצרי יוקרה מעוצבים</h3>
+            <h3>מיתוג פרימיום</h3>
           </a>
           <a href="./DepartmentUnderDevelopment.html" class="service-item">
             <div class="emoji-icon">🌍</div>
-            <h3>שירותים בינלאומיים</h3>
+            <h3>שירותים גלובליים</h3>
           </a>
         </div>
       </section>
@@ -166,19 +320,43 @@
         <h2>📞 צור קשר</h2>
         <div class="contact-info">
           <div class="contact-item">
-            <span class="emoji-icon">📱</span>
-            <p><strong>0533196387</strong></p>
+            <a
+              href="tel:+972533196387"
+              onclick="copyToClipboard('+972533196387')"
+            >
+              <span class="emoji-icon">📱</span>
+              <strong>+972533196387</strong>
+            </a>
           </div>
           <div class="contact-item">
-            <span class="emoji-icon">📧</span>
-            <p><strong>IS0533196387@GMAIL.COM</strong></p>
+            <a
+              href="mailto:is0533196387@gmail.com"
+              onclick="copyToClipboard('is0533196387@gmail.com')"
+            >
+              <span class="emoji-icon">📧</span>
+              <strong>is0533196387@gmail.com</strong>
+            </a>
           </div>
         </div>
       </section>
     </div>
     <footer>
-      <p>✨ איציק לוקישין אינטרנשיונל ✨</p>
+      <p>✨ Itzik Location International ✨</p>
+      <p>מצוינות בכל פרט</p>
       <p>&copy; 2024 כל הזכויות שמורות</p>
     </footer>
   </body>
 </html>
+
+<script>
+  function copyToClipboard(text) {
+    navigator.clipboard
+      .writeText(text)
+      .then(() => {
+        alert("הטקסט הועתק ללוח: " + text);
+      })
+      .catch((err) => {
+        alert("שגיאה בהעתקה: " + err);
+      });
+  }
+</script>
